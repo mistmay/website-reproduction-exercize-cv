@@ -1,0 +1,185 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+}
+
+main {
+    width: 70%;
+    height: 1180px;
+    margin: 1rem auto;
+}
+
+#bio {
+    width: 30%;
+}
+
+#photo-container {
+    height: 25%;
+    background-image: url("https://www.w3schools.com/w3images/avatar_hat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#skills-container {
+    height: 75%;
+    color: #757575;
+}
+
+#contact {
+    gap: 20px;
+}
+
+.contact-details {
+    gap: 15px;
+}
+
+.icons {
+    color: #009688;
+    font-size: 18px;
+}
+
+.bar {
+    height: 15px;
+    border-radius: 10px;
+}
+
+.relative-bar {
+    position: relative;
+    background-color: lightgray;
+}
+
+.absolute-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 12px;
+    background-color: #009688;
+}
+
+#photoshop {
+    width: 90%;
+}
+
+#photography {
+    width: 80%;
+}
+
+#illustrator {
+    width: 75%;
+}
+
+#media {
+    width: 50%;
+}
+
+#spanish {
+    width: 60%;
+}
+
+#german {
+    width: 30%;
+}
+
+#cv-container {
+    width: 68%;
+}
+
+.cv-section {
+    height: 49%;
+    padding: 35px 25px;
+}
+
+.cv-section h1,
+.cv-section h2 {
+    color: #757575;
+}
+
+.date {
+    color: #009688;
+    font-size: 16px;
+}
+
+#current {
+    font-size: 16px;
+    color: white;
+    background-color: #009688;
+    border-radius: 4px;
+    padding: 2px 8px;
+    text-align: center;
+}
+
+#current-space {
+    gap: 4px;
+}
+
+.extra-icon {
+    color: #009688;
+    font-size: 36px;
+}
+
+.cv-history {
+    gap: 30px;
+    padding: 0 10px;
+}
+
+footer {
+    height: 125px;
+    background-color: #009688;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer i {
+    margin-right: 3px;
+}
+
+footer i:hover {
+    opacity: 0.6;
+}
+
+@media (max-width: 1200px) {
+    main {
+        margin: 1rem 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    main {
+        height: auto;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+    }
+
+    #bio,
+    #cv-container,
+    #skills-container {
+        width: 100%;
+        height: auto;
+    }
+
+    #photo-container {
+        height: 300px;
+    }
+}
